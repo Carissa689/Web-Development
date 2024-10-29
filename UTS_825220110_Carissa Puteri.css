@@ -1,0 +1,1121 @@
+*{padding: 0; margin: 0;}
+
+.container {
+    width : 1000px;
+    margin: auto;
+    margin-top : 30px;
+}
+
+.container body .header{
+    overflow: hidden;
+}
+
+body .container .header .menukiri img{
+    width: 16%;
+    height: auto;
+    float: left;
+    margin-right: 225px;
+}
+
+menu { 
+    position: relative;
+	height: 40px; 
+    line-height: 40px; 
+}
+
+menu ul li {
+    float: left; 
+    list-style: none; 
+}
+
+menu ul li a {
+    margin-right: 15px; 
+    text-decoration: none; 
+	padding: 3px 10px; 
+    color: black;
+    text-align: center;
+}
+
+menu ul li ul{ 
+    display: none;
+}
+
+menu ul li:hover > ul { 
+    display: block; 
+    z-index: 1;
+}	
+
+menu ul li ul	{ 
+    position:absolute; 
+}
+
+menu ul li ul li { 
+    float: none; 
+    position: relative;
+    font-weight: 500;
+    padding: 0 70px 0 1rem;
+    text-align: left;
+    background-color: gray;
+    box-sizing: inherit;
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+    right: 120px;;
+}		
+
+menu ul img{
+    width: 4%;
+    height: auto;
+    float: right;
+}
+
+.isi .palingatas img {
+    position: relative;
+    width : 100%;
+    height: auto;
+    margin-top: 20px;
+    display: inline-block;
+    filter: brightness(0.8);
+}
+
+.isi .palingatas .kata2 {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.isi .palingatas .awalan {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.isi .palingatas .tengahan {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.isi .palingatas .tengahan h2{
+    font-weight: lighter;
+}
+
+.isi .palingatas .bawahan {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.isi .palingatas .bawahan a{
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: darksalmon;
+    border-radius: 5px;
+    border-width: 100px;
+    text-align: center;
+    padding: 10px 30px;
+    
+}
+
+.atas2 .foto{
+    margin-top: 15px;
+	width: 333.3px;
+	float: left;
+}
+
+.atas2 img {
+	width: 320px;
+	height : auto;
+}
+
+.atas2 .foto .kanan2 {
+    float: right;
+}
+
+.atas2 .foto .tengah2 {
+    margin : 0 7px 0 7px;
+}
+
+.atas2 .foto {
+	position: relative;
+    filter: brightness(0.8);
+}
+
+.atas2 .foto .bagian {
+	margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    margin: 30px 100px;
+    color: white;
+}
+
+.atas2 .foto .bagian h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.atas2 .foto .kanan2 .bagian h1{
+    margin-left: 20%;
+}
+
+.atas2 .foto .shopnow a{
+    position: absolute;
+    margin: auto;
+    position: absolute;
+    top: 53%;
+    left: 10%;
+    margin-left: 105px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.atas3 {
+    display: inline-block;
+    overflow: hidden;
+    height: auto;
+    width: 1000px;
+}
+
+.isi .atas3 h1{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    float : left;
+}
+
+.isi .atas3 h2{
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    float : right;
+    background-color: darksalmon;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.atas3 h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.atas4 {
+    display: inline-block;
+    overflow: hidden;
+    height: auto;
+    width: 1000px;
+}
+
+.atas4 .foto{
+    margin-top: 15px;
+	width: 333.3px;
+	float: left;
+}
+
+.atas4 img {
+	width: 300px;
+	height : auto;
+    margin-bottom: 15px;
+}
+
+.atas4 .foto .kanan4 {
+    float: right;
+}
+
+.atas4 .foto .tengah4 {
+    margin : 0 18px 0 18px;
+}
+
+.atas4 .foto {
+	position: relative;
+}
+
+.atas4 .foto a {
+    text-decoration: none;
+    color: black;
+}
+
+.atas4 .foto .bintang a{
+    margin-top: 10px;
+    color: yellow;
+    font-size: 20px;
+}
+
+.atas4 .foto .harga a{
+    margin-top: 10px;
+}
+
+.atas4 .foto .nama a{
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.atas4 .foto .harga b{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.atas5 {
+    display: inline-block;
+    overflow: hidden;
+    height: auto;
+    width: 1000px;
+}
+
+.atas5 .foto{
+    margin-top: 15px;
+	width: 333.3px;
+	float: left;
+}
+
+.atas5 img {
+	width: 300px;
+	height : auto;
+    margin-bottom: 15px;
+}
+
+.atas5 .foto .kanan5 {
+    float: right;
+}
+
+.atas5 .foto .tengah5 {
+    margin : 0 18px 0 18px;
+}
+
+.atas5 .foto {
+	position: relative;
+}
+
+.atas5 .foto a {
+    text-decoration: none;
+    color: black;
+}
+
+.atas5 .foto .bintang a{
+    margin-top: 10px;
+    color: yellow;
+    font-size: 20px;
+}
+
+.atas5 .foto .harga a{
+    margin-top: 10px;
+}
+
+.atas5 .foto .nama a{
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.atas7 {
+    display: inline-block;
+    overflow: hidden;
+    height: auto;
+    width: 1000px;
+    margin-top: 90px;
+    padding: auto;
+}
+
+.atas7 .kiri7 {
+    margin-top: 80px;
+    float: left;
+    width : 600px;
+}
+
+.atas7 .kiri7 .nim {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.atas7 .kiri7 .carissa {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.atas7 .kiri7 .keterangan {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.atas7 .kiri7 .read {
+    margin-top: 40px;
+    color: white;
+    float : left;
+    background-color: darksalmon;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.atas7 .kiri7 .read a{
+    text-decoration: none;
+    color: white;
+}
+
+.atas7 .kanan7 img {
+    width: 400px;
+    float: right;
+}
+
+.container8 {
+    background-color: lightgray;
+}
+
+.isi8 .atas8 {
+    margin : auto;
+    overflow: hidden;
+    height: auto;
+    margin-top: 90px;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+}
+
+.atas8 .atass8 .testimoni {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.atas8 .atass8 .customersay {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.atas8 .foto{
+    margin-top: 15px;
+	width: 333.3px;
+	float: left;
+    position: relative;
+}
+
+.atas8 .foto .bawahkiri{
+    background-color: white;
+    border-width: 100px;
+    border-radius: 5px;
+    width: 300px;
+    height: 180px;
+    padding: 15px;
+}
+
+.atas8 .foto img {
+	width: 80px;
+	height : auto;
+    clip-path: circle(50%);
+}
+
+.atas8 .foto .bawahkiri .bawahkiri2 img{
+    position: absolute;
+
+}
+
+.atas8 .foto .bawahkiri .bawahkiri2{
+    display: flex;
+    position: relative;
+
+}
+
+.atas8 .foto .bawahkiri .bawahkiri2 .namadepan{
+    transform: translate(-120px, 40px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.atas8 .foto .bawahkiri .bawahkiri2 .namabelakang{
+    transform: translate(-166px, 60px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.atas8 .foto .bawahkanan {
+    background-color: white;
+    border-width: 100px;
+    border-radius: 5px;
+    width: 300px;
+    height: 180px;
+    padding: 15px;
+    float: right;
+}
+
+.atas8 .foto .bawahtengah{
+    background-color: black;
+    border-width: 100px;
+    border-radius: 5px;
+    width: 300px;
+    height: 180px;
+    padding: 15px;
+}
+
+.atas8 .foto .bintang8{
+    color: yellow;
+    font-size: 20px;
+}
+
+.atas8 .foto .komen{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.atas8 .foto .bawahtengah .komen {
+    color: white;
+}
+
+.atas8 .foto .bawahtengah .bawahtengah2 .namadepan {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.atas8 .foto .bawahtengah .bawahtengah2 .namabelakang {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.atas8 .foto .bawahtengah .bawahtengah2 img{
+    position: absolute;
+
+}
+
+.atas8 .foto .bawahtengah .bawahtengah2{
+    display: flex;
+    position: relative;
+
+}
+
+.atas8 .foto .bawahtengah .bawahtengah2 .namadepan{
+    transform: translate(-120px, 40px);
+}
+
+
+.atas8 .foto .bawahtengah .bawahtengah2 .namabelakang{
+    transform: translate(-177px, 60px);
+}
+
+.atas8 .foto .bawahkanan .bawahkanan2 img{
+    position: absolute;
+
+}
+
+.atas8 .foto .bawahkanan .bawahkanan2{
+    display: flex;
+    position: relative;
+}
+
+.atas8 .foto .bawahkanan .bawahkanan2 .namadepan {
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(-110px, 40px);
+}
+
+.atas8 .foto .bawahkanan .bawahkanan2 .namabelakang {
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(-163px, 60px);
+}
+
+.atas8 .foto .bawahkanan {
+    float: right;
+}
+
+.atas8 .foto .bawahtengah {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.fatas {
+    margin-top: 90px;
+    color: white; 
+    justify-content: center; 
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    height: 400px;
+}
+ .fatas .ffatas {
+    margin-top: 30px;
+    width: 300px; 
+    padding: 15px; 
+    font-size: 12px;
+    position: relative;
+    float: left;
+}
+ .fatas .logo img {
+    margin-top: 20px;
+    width: 30px; 
+    height: 30px; 
+    float: left; 
+    clip-path: circle(50%); 
+    margin-left:10px; 
+}
+.fatas .logo img:hover {
+    transform: scale(1.2);
+}
+
+.fatas .ffatas {
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif
+    position: relative;
+}
+
+.fatas .ffatas h1 {
+    border-bottom: solid white 1px; 
+    padding: 10px; 
+    position: relative;
+}
+.fatas .ffatas .penjelasan1 {
+    margin-top: 20px;
+    align-items: left;  
+    margin-left: 30px;
+    padding: 10px; 
+    transform: translate(-15px, 0px);
+    position: relative;
+}
+
+.fatas .ffatas .penjelasan2 {
+    position: relative;
+    margin-top: 20px;
+    align-items: left;  
+    margin-left: 5px;
+    padding: 10px; 
+    transform: translate(-15px, 0px);
+    position: relative;
+}
+
+.fatas .ffatas .penjelasan3 {
+    position: relative;
+    margin-top: 20px;
+    align-items: left;  
+    margin-left: 50px;
+    padding: 10px; 
+    transform: translate(-15px, 0px);
+    position: relative;
+}
+
+
+.fatas .ffatas .satutengah2 {
+    margin-left: 30px;
+    margin-top: -40px;
+}
+
+.fatas .ffatas .satutengah2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.fatas .ffatas .duatengah2 {
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+.fatas .ffatas .duatengah2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.fatas .ffatas .tigatengah2 {
+    margin-left: 5px;
+    margin-top: -40px;
+}
+
+.fatas .ffatas .tigatengah2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.fatas .ffatas .penjelasan1 img {
+    width: 40px; 
+    height: 40px; 
+    transform: translate(-25px, 0px);
+}
+
+.fatas .ffatas .penjelasan2 img {
+    width: 40px; 
+    height: 40px; 
+}
+
+.fatas .ffatas .penjelasan3 img {
+    width: 40px; 
+    height: 40px; 
+    transform: translate(-45px, 0px);
+}
+
+.fatas .ffatas .tool {
+    margin-top: 20px;
+    position: relative; 
+}
+
+.fatas .ffatas .tool .tips {
+    display: inline; 
+    padding: 10px;}
+.fatas .ffatas p {
+    margin-top: 30px;
+}
+input[type=text] {
+    padding: 10px; 
+    font-family: arial;}
+input[type=submit] {
+    padding: 10px; 
+    font-family: arial;}
+
+.containerfatas {
+    background-color: black;
+}
+
+.isifatas .fatas {
+    margin : auto;
+    overflow: hidden;
+    height: auto;
+    margin-top: 90px;
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+}
+
+.containerpisah {
+    height: 225px;
+    background-color: lightgray;
+}
+
+.isisecure .atas6 {
+    margin : auto;
+    overflow: hidden;
+    height: auto;
+    margin-top: 90px;
+    background-color: lightgray;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+}
+
+.atas6 .foto{
+    margin-top: 15px;
+	width: 333.3px;
+	float: left;
+    
+}
+
+.atas6 img {
+	width: 80px;
+	height : auto;
+    margin-bottom: 15px;
+    margin-left: 130px;
+}
+
+.atas6 .foto .gede {
+    text-align: center;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.atas6 .foto .paragraf {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center; 
+    font-size: 15px; 
+    line-height: 40px; 
+    height: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.containertambahan1 {
+    height: 200px;
+}
+
+.isitambahan {
+    margin : auto;
+    overflow: hidden;
+    height: auto;
+    margin-top: 90px;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+    background-color:darkcyan
+}
+
+.isitambahan .kiritambahan {
+    padding: 20px;
+    width: 600px;
+    float: left;
+}
+
+.isitambahan .kiritambahan h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.isitambahan .kiritambahan h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+.isitambahan .kiritambahan p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 8px;
+}
+
+.isitambahan .kanantambahan {
+    width: 300px;
+    float: right;
+}
+
+.isitambahan .kanantambahan .tooltambahan{
+    width: 400px;
+    float: right;
+    margin-top: 50px;
+    position: relative; 
+}
+
+input[type=texttambahan] {
+    padding: 10px; 
+    font-family: arial;
+    background-color: darkcyan;
+    width: 350px;
+    border: none;
+    border-bottom: 0.5px solid white;
+}
+
+.isitambahan .kanantambahan input::placeholder {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.isitambahan .kanantambahan img {
+    width: 25px;
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 235px;
+}
+
+.containerfatas2 {
+    height: 150px;
+}
+
+.isifatas2 {
+    margin : auto;
+    overflow: hidden;
+    height: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+}
+
+.fatas2 {
+    padding: 20px;
+    width: 1000px;
+}
+
+.fatas2 p {
+    text-align: center;
+    color:cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.fatas2 h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.fatas2 .klikfatas2 { 
+    margin-left: 463px;
+    margin-top: 10px;
+}
+
+.fatas2 .klikfatas2 input[type=submit] {
+    padding: 10px; 
+    font-family: arial;
+    background-color:dodgerblue;
+    border: none;
+}
+
+.fatas2 .klikfatas2 input{
+    color: white;
+}
+
+.containertambahan2 {
+    margin-top: 30px;
+    height: 900px;
+    background-color: palevioletred;
+}
+
+.trending {
+    margin : auto;
+    overflow: hidden;
+    height: auto;
+    padding: 10px;
+    position: relative;
+    width: 1000px;
+}
+
+.trending .kiritrending {
+    width: 480px;
+    float: left;
+    background-color: blue;
+}
+
+.trending .kiritrending h1 {
+    border-bottom: solid aqua 2px; 
+    position: relative;
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: aqua;
+}
+
+.trending .kiritrending .penjelasan1 {
+    margin-top: 20px;
+    align-items: left;  
+    margin-left: 30px;
+    padding: 10px; 
+    transform: translate(-15px, 0px);
+    position: relative;
+}
+
+
+.trending .kiritrending .penjelasan1 img {
+    width: 200px; 
+    height: 300px; 
+    transform: translate(-25px, 0px);
+    border-radius: 10px;
+}
+
+.trending .kiritrending .satutengah2 {
+    margin-left: 200px;
+    margin-top: -200px;
+}
+
+.trending .kiritrending .satutengah2 .judul a{
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.trending .kiritrending .satutengah2 .tagline1 a{
+    text-decoration: none;
+    color: aqua;
+    padding: 10px;
+}
+
+.trending .kiritrending .satutengah2 .tagline2 a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.trending .kiritrending .satutengah2 .bawahnya a1{
+    text-decoration: none;
+    color: yellow;
+    padding: 10px;
+}
+
+.trending .kiritrending .satutengah2 .bawahnya a2{
+    text-decoration: none;
+    color: black;
+}
+
+.fatas .ffatas .penjelasan2 {
+    position: relative;
+    margin-top: 20px;
+    align-items: left;  
+    margin-left: 5px;
+    padding: 10px; 
+    transform: translate(-15px, 0px);
+    position: relative;
+}
+
+.fatas .ffatas .penjelasan3 {
+    position: relative;
+    margin-top: 20px;
+    align-items: left;  
+    margin-left: 50px;
+    padding: 10px; 
+    transform: translate(-15px, 0px);
+    position: relative;
+}
+
+
+.fatas .ffatas .satutengah2 {
+    margin-left: 30px;
+    margin-top: -40px;
+}
+
+.fatas .ffatas .satutengah2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.fatas .ffatas .duatengah2 {
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+.fatas .ffatas .duatengah2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.fatas .ffatas .tigatengah2 {
+    margin-left: 5px;
+    margin-top: -40px;
+}
+
+.fatas .ffatas .tigatengah2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.fatas .ffatas .penjelasan1 img {
+    width: 40px; 
+    height: 40px; 
+    transform: translate(-25px, 0px);
+}
+
+.fatas .ffatas .penjelasan2 img {
+    width: 40px; 
+    height: 40px; 
+}
+
+.container6luar {
+    width:100%;
+    height: 500px;
+    background-color: rgb(208, 207, 209);
+}
+
+.container6{
+    width: 1000px;
+    background-color: rgb(208, 207, 209);
+    height:500px;
+    margin: auto;
+}
+
+.container6 .trendingtoday{
+    margin-bottom: 20px;
+    color: turquoise;
+
+    
+}
+
+.trending .gambartrending{
+    background-color:  rgb(208, 207, 209);
+    height:200px;
+}
+
+.trending.gambartrendingbawah{
+    background-color: rgb(208, 207, 209);
+    height:200px;
+}
+
+.trending .gambartrending .gambartrending1{
+    background-color: white;
+    height:180px;
+    width: 480px;
+    float: left;
+}
+
+.trending .gambartrending .gambartrending2{
+    background-color: white;
+    height:180px;
+    width: 480px;
+    float: right;
+}
+
+.trending .gambartrendingbawah .gambartrending1{
+    background-color: white;
+    height:180px;
+    width: 480px;
+    float: left;
+}
+
+.trending .gambartrendingbawah .gambartrending2{
+    background-color: white;
+    height:180px;
+    width: 480px;
+    float: right;
+}
+
+.trending .gambartrending img {
+    width: 200px;
+    height: 180px;
+}
+
+.trending .gambartrendingbawah img {
+    width: 200px;
+    height: 180px;
+}
+
+.trending .gambarkiri {
+    width: 200px;
+    height: 180px;
+    float: left;
+}
+
+
+
+.trending .tulisankanan  {
+    width: 260px;
+    height: 180px;
+    background-color: white;
+    float: right;
+    padding-left:15px;
+}
+
+.trending .tulisankanan .kananatas1 {
+    background-color: white;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.trending .namatrending{
+    float: left;
+    background-color: rgb(208, 207, 209);
+    padding: 4px;
+    border-radius: 12px;
+}
+.trending .heartimage img{
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+.trending .tulisankanan .kananbawah1 {
+    background-color: white;
+    height: 100px;
+}
+
+.trending.tulisankanan .kananbawah1 h3 {
+    color:turquoise;
+}
+
